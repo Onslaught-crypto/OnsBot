@@ -1,0 +1,50 @@
+name: crypto-alert-scan
+
+# Runs on GitHub's servers on a schedule — your laptop runs nothing.
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # every 15 min (UTC). Fine for 4h/1d candles.
+  workflow_dispatch: {}          # adds a manual "Run workflow" button
+
+# Never let two scans overlap (they'd fight over committing state.json).
+concurrency:
+  group: crypto-alert-scan
+  cancel-in-progress: false
+
+# Needed so the workflow can commit the updated state.json back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run one scan
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --once
+
+      - name: Persist alert state
+        run: |
+          if [[ -n "$(git status --porcelain state.json)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "update alert state [skip ci]"
+            git push
+          else
+            echo "No state change to commit."
+          fi
