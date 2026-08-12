@@ -15,12 +15,12 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "PUT_YOUR_CHAT_ID_HERE")
 # ---------------------------------------------------------------------------
 # Data source
 # ---------------------------------------------------------------------------
-EXCHANGE = "bybit"          # any ccxt exchange id; bybit = deepest candle data
+EXCHANGE = "kraken"          # any ccxt exchange id; kraken = deepest candle data
 MARKET_TYPE = "spot"          # "spot" or "swap" (perps). Perps needed for funding/OI later.
 QUOTE = "USDT"                # quote currency for the watchlist
 
 # Watchlist: if non-empty, it overrides the auto top-N-by-volume selection.
-WATCHLIST = []                # e.g. ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+WATCHLIST = ["BTC/USD", "ETH/USD", "SOL/USD", "XRP/USD", "ADA/USD", "DOGE/USD", "AVAX/USD", "LINK/USD", "DOT/USD", "LTC/USD", "BCH/USD", "ATOM/USD", "XLM/USD", "ETC/USD", "UNI/USD", "AAVE/USD", "FIL/USD", "ALGO/USD", "NEAR/USD", "TRX/USD"]                # e.g. ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
 TOP_N_BY_VOLUME = 30          # used only when WATCHLIST is empty
 
 TIMEFRAMES = ["4h", "1d"]     # any ccxt timeframes
