@@ -15,7 +15,7 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "PUT_YOUR_CHAT_ID_HERE")
 # ---------------------------------------------------------------------------
 # Data source
 # ---------------------------------------------------------------------------
-EXCHANGE = "bybit"          # any ccxt exchange id; Binance = deepest candle data
+EXCHANGE = "bybit"          # any ccxt exchange id; bybit = deepest candle data
 MARKET_TYPE = "spot"          # "spot" or "swap" (perps). Perps needed for funding/OI later.
 QUOTE = "USDT"                # quote currency for the watchlist
 
