@@ -1,0 +1,20 @@
+{
+ "seen": {
+  "LINK/USD|1d|confluence": 1786406400000
+ },
+ "log": [
+  {
+   "time": "2026-08-12 23:57:44",
+   "symbol": "LINK/USD",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 8.76895,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.3x average on a green candle (confluence)"
+  }
+ ]
+}
