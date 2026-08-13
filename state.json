@@ -1,7 +1,8 @@
 {
  "seen": {
   "LINK/USD|1d|confluence": 1786406400000,
-  "FIL/USD|4h|confluence": 1786564800000
+  "FIL/USD|4h|confluence": 1786564800000,
+  "TRX/USD|4h|confluence": 1786608000000
  },
  "log": [
   {
@@ -29,6 +30,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 6.8x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-13 12:10:26",
+   "symbol": "TRX/USD",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.333528,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.7x average on a red candle (confluence)"
   }
  ]
 }
