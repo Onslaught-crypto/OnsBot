@@ -1,6 +1,7 @@
 {
  "seen": {
-  "LINK/USD|1d|confluence": 1786406400000
+  "LINK/USD|1d|confluence": 1786406400000,
+  "FIL/USD|4h|confluence": 1786564800000
  },
  "log": [
   {
@@ -15,6 +16,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.3x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-13 02:31:32",
+   "symbol": "FIL/USD",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.67,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 6.8x average on a red candle (confluence)"
   }
  ]
 }
