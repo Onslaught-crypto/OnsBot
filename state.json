@@ -5,7 +5,7 @@
   "TRX/USD|4h|confluence": 1786608000000,
   "BCH/USDT|4h|confluence": 1786636800000,
   "LINK/USDT|1d|confluence": 1786579200000,
-  "PENGU/USDT|4h|confluence": 1786708800000
+  "PENGU/USDT|4h|confluence": 1786723200000
  },
  "log": [
   {
@@ -98,6 +98,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.3x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-14 20:06:30",
+   "symbol": "PENGU/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.006059,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.8x average on a red candle (confluence)"
   }
  ]
 }
