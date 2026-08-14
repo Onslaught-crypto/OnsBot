@@ -3,7 +3,8 @@
   "LINK/USD|1d|confluence": 1786406400000,
   "FIL/USD|4h|confluence": 1786564800000,
   "TRX/USD|4h|confluence": 1786608000000,
-  "BCH/USDT|4h|confluence": 1786636800000
+  "BCH/USDT|4h|confluence": 1786636800000,
+  "LINK/USDT|1d|confluence": 1786579200000
  },
  "log": [
   {
@@ -70,6 +71,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 6.9x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-14 02:35:33",
+   "symbol": "LINK/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 8.8937,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.0x average on a green candle (confluence)"
   }
  ]
 }
