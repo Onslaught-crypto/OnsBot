@@ -7,7 +7,8 @@
   "LINK/USDT|1d|confluence": 1786579200000,
   "PENGU/USDT|4h|confluence": 1786723200000,
   "BCH/USDT|1d|confluence": 1786665600000,
-  "LINK/USDT|4h|confluence": 1786896000000
+  "LINK/USDT|4h|confluence": 1786896000000,
+  "DAI/USDT|1d|confluence": 1786838400000
  },
  "log": [
   {
@@ -139,6 +140,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.7x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-17 01:46:02",
+   "symbol": "DAI/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 1.00301,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout"
   }
  ]
 }
