@@ -17,10 +17,11 @@
   "USDG/USDT|4h|confluence": 1787097600000,
   "DAI/USDT|4h|confluence": 1787083200000,
   "FIDD/USDT|1d|confluence": 1787011200000,
-  "RLUSD/USDT|4h|confluence": 1787140800000,
+  "RLUSD/USDT|4h|confluence": 1787155200000,
   "DOGE/USDT|4h|confluence": 1787140800000,
   "BNB/USDT|4h|confluence": 1787140800000,
-  "FARTCOIN/USDT|4h|confluence": 1787140800000
+  "FARTCOIN/USDT|4h|confluence": 1787155200000,
+  "LTC/USDT|4h|confluence": 1787155200000
  },
  "log": [
   {
@@ -388,6 +389,45 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 5.5x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-19 20:25:55",
+   "symbol": "RLUSD/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.00032,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 8.7x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-19 20:26:02",
+   "symbol": "LTC/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 46.00595,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-19 20:26:23",
+   "symbol": "FARTCOIN/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.1525,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.8x average on a green candle (confluence)"
   }
  ]
 }
