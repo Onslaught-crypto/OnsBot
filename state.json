@@ -6,7 +6,7 @@
   "BCH/USDT|4h|confluence": 1787212800000,
   "LINK/USDT|1d|confluence": 1786579200000,
   "PENGU/USDT|4h|confluence": 1786723200000,
-  "BCH/USDT|1d|confluence": 1786665600000,
+  "BCH/USDT|1d|confluence": 1787184000000,
   "LINK/USDT|4h|confluence": 1786896000000,
   "DAI/USDT|1d|confluence": 1787097600000,
   "SOL/USDT|4h|confluence": 1786968000000,
@@ -22,17 +22,22 @@
   "BNB/USDT|4h|confluence": 1787140800000,
   "FARTCOIN/USDT|4h|confluence": 1787169600000,
   "LTC/USDT|4h|confluence": 1787155200000,
-  "BTC/USDT|1d|confluence": 1787097600000,
-  "ETH/USDT|1d|confluence": 1787097600000,
+  "BTC/USDT|1d|confluence": 1787184000000,
+  "ETH/USDT|1d|confluence": 1787184000000,
   "SOL/USDT|1d|confluence": 1787097600000,
   "XRP/USDT|4h|confluence": 1787169600000,
-  "BNB/USDT|1d|confluence": 1787097600000,
+  "BNB/USDT|1d|confluence": 1787184000000,
   "AVAX/USDT|4h|confluence": 1787169600000,
-  "AVAX/USDT|1d|confluence": 1787097600000,
+  "AVAX/USDT|1d|confluence": 1787184000000,
   "TRUMP/USDT|4h|confluence": 1787169600000,
   "TRUMP/USDT|1d|confluence": 1787097600000,
   "ATOM/USDT|4h|confluence": 1787169600000,
-  "USDE/USDT|1d|confluence": 1787097600000
+  "USDE/USDT|1d|confluence": 1787097600000,
+  "USDC/USDT|1d|confluence": 1787184000000,
+  "USDG/USDT|1d|confluence": 1787184000000,
+  "RLUSD/USDT|1d|confluence": 1787184000000,
+  "DOT/USDT|1d|confluence": 1787184000000,
+  "FARTCOIN/USDT|1d|confluence": 1787184000000
  },
  "log": [
   {
@@ -648,6 +653,139 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.1x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:00:33",
+   "symbol": "USDC/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 1.0002,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout"
+  },
+  {
+   "time": "2026-08-21 00:00:35",
+   "symbol": "BTC/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 73042.0,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.1x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:00:38",
+   "symbol": "ETH/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 2327.36,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.9x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:00:52",
+   "symbol": "USDG/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 1.0001,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.5x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:00:59",
+   "symbol": "BNB/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 654.73,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.8x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:01:04",
+   "symbol": "RLUSD/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 1.00036,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 4.7x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:01:11",
+   "symbol": "AVAX/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 7.285,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.1x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:01:16",
+   "symbol": "DOT/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 0.8478,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 3.9x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:01:19",
+   "symbol": "BCH/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 222.6,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.9x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-21 00:01:35",
+   "symbol": "FARTCOIN/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 0.1691,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 13.3x average on a green candle (confluence)"
   }
  ]
 }
