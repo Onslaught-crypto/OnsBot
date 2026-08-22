@@ -42,7 +42,8 @@
   "PENGU/USDT|1d|confluence": 1787270400000,
   "SHIB/USDT|1d|confluence": 1787270400000,
   "VIRTUAL/USDT|1d|confluence": 1787270400000,
-  "XMR/USDT|4h|confluence": 1787356800000
+  "XMR/USDT|4h|confluence": 1787356800000,
+  "CRO/USDT|1d|confluence": 1787270400000
  },
  "log": [
   {
@@ -922,6 +923,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.1x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-22 04:50:34",
+   "symbol": "CRO/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 0.05758,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 2.1x average on a green candle (confluence)"
   }
  ]
 }
