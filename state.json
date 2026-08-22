@@ -41,7 +41,8 @@
   "LTC/USDT|1d|confluence": 1787270400000,
   "PENGU/USDT|1d|confluence": 1787270400000,
   "SHIB/USDT|1d|confluence": 1787270400000,
-  "VIRTUAL/USDT|1d|confluence": 1787270400000
+  "VIRTUAL/USDT|1d|confluence": 1787270400000,
+  "XMR/USDT|4h|confluence": 1787356800000
  },
  "log": [
   {
@@ -908,6 +909,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 6.9x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-22 04:05:44",
+   "symbol": "XMR/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 449.96,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.1x average on a green candle (confluence)"
   }
  ]
 }
