@@ -32,7 +32,7 @@
   "TRUMP/USDT|4h|confluence": 1787169600000,
   "TRUMP/USDT|1d|confluence": 1787443200000,
   "ATOM/USDT|4h|confluence": 1787169600000,
-  "USDE/USDT|1d|confluence": 1787097600000,
+  "USDE/USDT|1d|confluence": 1787616000000,
   "USDC/USDT|1d|confluence": 1787184000000,
   "USDG/USDT|1d|confluence": 1787184000000,
   "RLUSD/USDT|1d|confluence": 1787184000000,
@@ -976,6 +976,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-26 01:14:36",
+   "symbol": "USDE/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 0.9998,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.9x average on a red candle (confluence)"
   }
  ]
 }
