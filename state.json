@@ -44,7 +44,8 @@
   "VIRTUAL/USDT|1d|confluence": 1787270400000,
   "XMR/USDT|4h|confluence": 1787356800000,
   "CRO/USDT|1d|confluence": 1787270400000,
-  "APE/USDT|1d|confluence": 1787270400000
+  "APE/USDT|1d|confluence": 1787270400000,
+  "MANA/USDT|4h|confluence": 1788048000000
  },
  "log": [
   {
@@ -1002,6 +1003,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; volume_spike: Volume spike 4.5x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-30 07:12:51",
+   "symbol": "MANA/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.07729,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.2x average on a green candle (confluence)"
   }
  ]
 }
