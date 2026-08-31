@@ -27,11 +27,11 @@
   "SOL/USDT|1d|confluence": 1787270400000,
   "XRP/USDT|4h|confluence": 1787169600000,
   "BNB/USDT|1d|confluence": 1787184000000,
-  "AVAX/USDT|4h|confluence": 1787169600000,
+  "AVAX/USDT|4h|confluence": 1788120000000,
   "AVAX/USDT|1d|confluence": 1787270400000,
   "TRUMP/USDT|4h|confluence": 1787169600000,
   "TRUMP/USDT|1d|confluence": 1787443200000,
-  "ATOM/USDT|4h|confluence": 1787169600000,
+  "ATOM/USDT|4h|confluence": 1788120000000,
   "USDE/USDT|1d|confluence": 1787616000000,
   "USDC/USDT|1d|confluence": 1787184000000,
   "USDG/USDT|1d|confluence": 1787184000000,
@@ -1016,6 +1016,32 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 3.2x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-08-31 00:46:08",
+   "symbol": "ATOM/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.4546,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.9x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-31 00:46:10",
+   "symbol": "AVAX/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 7.104,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 5.6x average on a red candle (confluence)"
   }
  ]
 }
