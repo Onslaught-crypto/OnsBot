@@ -18,7 +18,7 @@
   "DAI/USDT|4h|confluence": 1788033600000,
   "FIDD/USDT|1d|confluence": 1787011200000,
   "RLUSD/USDT|4h|confluence": 1787155200000,
-  "DOGE/USDT|4h|confluence": 1787169600000,
+  "DOGE/USDT|4h|confluence": 1788134400000,
   "BNB/USDT|4h|confluence": 1787140800000,
   "FARTCOIN/USDT|4h|confluence": 1787169600000,
   "LTC/USDT|4h|confluence": 1787155200000,
@@ -1042,6 +1042,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 5.6x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-08-31 06:16:56",
+   "symbol": "DOGE/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.08233,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; volume_spike: Volume spike 6.6x average on a red candle (confluence)"
   }
  ]
 }
