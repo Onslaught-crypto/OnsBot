@@ -46,7 +46,7 @@
   "CRO/USDT|1d|confluence": 1787270400000,
   "APE/USDT|1d|confluence": 1787270400000,
   "MANA/USDT|4h|confluence": 1788048000000,
-  "KAS/USDT|4h|confluence": 1788220800000
+  "KAS/USDT|4h|confluence": 1788235200000
  },
  "log": [
   {
@@ -1063,6 +1063,19 @@
    "timeframe": "4h",
    "direction": "long",
    "price": 0.02808,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 8.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-01 09:46:07",
+   "symbol": "KAS/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.02779,
    "members": [
     "macd_cross",
     "rsi_divergence",
