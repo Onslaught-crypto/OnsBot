@@ -46,7 +46,8 @@
   "CRO/USDT|1d|confluence": 1787270400000,
   "APE/USDT|1d|confluence": 1787270400000,
   "MANA/USDT|4h|confluence": 1788048000000,
-  "KAS/USDT|4h|confluence": 1788235200000
+  "KAS/USDT|4h|confluence": 1788235200000,
+  "BTC/USDT|4h|confluence": 1788278400000
  },
  "log": [
   {
@@ -1095,6 +1096,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; volume_spike: Volume spike 2.8x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-01 20:52:29",
+   "symbol": "BTC/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 77316.4,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 3.2x average on a red candle (confluence)"
   }
  ]
 }
