@@ -25,7 +25,7 @@
   "BTC/USDT|1d|confluence": 1787270400000,
   "ETH/USDT|1d|confluence": 1787270400000,
   "SOL/USDT|1d|confluence": 1787270400000,
-  "XRP/USDT|4h|confluence": 1787169600000,
+  "XRP/USDT|4h|confluence": 1788292800000,
   "BNB/USDT|1d|confluence": 1787184000000,
   "AVAX/USDT|4h|confluence": 1788120000000,
   "AVAX/USDT|1d|confluence": 1787270400000,
@@ -1109,6 +1109,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 3.2x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-02 01:01:39",
+   "symbol": "XRP/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.35322,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; volume_spike: Volume spike 3.0x average on a red candle (confluence)"
   }
  ]
 }
