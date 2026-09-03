@@ -19,7 +19,7 @@
   "FIDD/USDT|1d|confluence": 1787011200000,
   "RLUSD/USDT|4h|confluence": 1787155200000,
   "DOGE/USDT|4h|confluence": 1788134400000,
-  "BNB/USDT|4h|confluence": 1788408000000,
+  "BNB/USDT|4h|confluence": 1788422400000,
   "FARTCOIN/USDT|4h|confluence": 1787169600000,
   "LTC/USDT|4h|confluence": 1787155200000,
   "BTC/USDT|1d|confluence": 1787270400000,
@@ -1187,6 +1187,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.3x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-03 15:02:21",
+   "symbol": "BNB/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 711.64,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 6.4x average on a green candle (confluence)"
   }
  ]
 }
