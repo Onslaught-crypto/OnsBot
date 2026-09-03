@@ -7,7 +7,7 @@
   "LINK/USDT|1d|confluence": 1786579200000,
   "PENGU/USDT|4h|confluence": 1786723200000,
   "BCH/USDT|1d|confluence": 1787270400000,
-  "LINK/USDT|4h|confluence": 1788350400000,
+  "LINK/USDT|4h|confluence": 1788451200000,
   "DAI/USDT|1d|confluence": 1787097600000,
   "SOL/USDT|4h|confluence": 1786968000000,
   "XAUT/USDT|4h|confluence": 1787140800000,
@@ -48,7 +48,7 @@
   "MANA/USDT|4h|confluence": 1788048000000,
   "KAS/USDT|4h|confluence": 1788235200000,
   "BTC/USDT|4h|confluence": 1788278400000,
-  "ETH/USDT|4h|confluence": 1788436800000
+  "ETH/USDT|4h|confluence": 1788451200000
  },
  "log": [
   {
@@ -1214,6 +1214,32 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; volume_spike: Volume spike 4.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-03 21:20:54",
+   "symbol": "ETH/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 2517.11,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; volume_spike: Volume spike 4.8x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-03 21:21:08",
+   "symbol": "LINK/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 11.857,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; volume_spike: Volume spike 5.5x average on a green candle (confluence)"
   }
  ]
 }
