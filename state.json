@@ -48,7 +48,8 @@
   "MANA/USDT|4h|confluence": 1788048000000,
   "KAS/USDT|4h|confluence": 1788235200000,
   "BTC/USDT|4h|confluence": 1788278400000,
-  "ETH/USDT|4h|confluence": 1788451200000
+  "ETH/USDT|4h|confluence": 1788451200000,
+  "TON/USDT|1d|confluence": 1788566400000
  },
  "log": [
   {
@@ -1266,6 +1267,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.5x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-06 01:01:42",
+   "symbol": "TON/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 1.439,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 6.0x average on a green candle (confluence)"
   }
  ]
 }
