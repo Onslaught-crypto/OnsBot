@@ -46,10 +46,11 @@
   "CRO/USDT|1d|confluence": 1787270400000,
   "APE/USDT|1d|confluence": 1787270400000,
   "MANA/USDT|4h|confluence": 1788048000000,
-  "KAS/USDT|4h|confluence": 1788235200000,
+  "KAS/USDT|4h|confluence": 1788724800000,
   "BTC/USDT|4h|confluence": 1788278400000,
   "ETH/USDT|4h|confluence": 1788451200000,
-  "TON/USDT|1d|confluence": 1788566400000
+  "TON/USDT|1d|confluence": 1788566400000,
+  "VIRTUAL/USDT|4h|confluence": 1788724800000
  },
  "log": [
   {
@@ -1280,6 +1281,32 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 6.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-07 00:22:42",
+   "symbol": "KAS/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.03222,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.9x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-07 00:23:08",
+   "symbol": "VIRTUAL/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.7274,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.4x average on a green candle (confluence)"
   }
  ]
 }
