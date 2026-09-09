@@ -51,7 +51,7 @@
   "ETH/USDT|4h|confluence": 1788451200000,
   "TON/USDT|1d|confluence": 1788566400000,
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
-  "ATOM/USDT|1d|confluence": 1788739200000,
+  "ATOM/USDT|1d|confluence": 1788825600000,
   "CRO/USDT|4h|confluence": 1788868800000
  },
  "log": [
@@ -1400,6 +1400,20 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 11.3x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-09 01:17:18",
+   "symbol": "ATOM/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 1.8604,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.5x average on a green candle (confluence)"
   }
  ]
 }
