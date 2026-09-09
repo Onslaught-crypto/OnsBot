@@ -45,7 +45,7 @@
   "XMR/USDT|4h|confluence": 1787356800000,
   "CRO/USDT|1d|confluence": 1787270400000,
   "APE/USDT|1d|confluence": 1787270400000,
-  "MANA/USDT|4h|confluence": 1788048000000,
+  "MANA/USDT|4h|confluence": 1788940800000,
   "KAS/USDT|4h|confluence": 1788753600000,
   "BTC/USDT|4h|confluence": 1788278400000,
   "ETH/USDT|4h|confluence": 1788451200000,
@@ -1427,6 +1427,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; volume_spike: Volume spike 2.5x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-09 15:19:52",
+   "symbol": "MANA/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.07522,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.1x average on a red candle (confluence)"
   }
  ]
 }
