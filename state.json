@@ -9,7 +9,7 @@
   "BCH/USDT|1d|confluence": 1787270400000,
   "LINK/USDT|4h|confluence": 1788451200000,
   "DAI/USDT|1d|confluence": 1787097600000,
-  "SOL/USDT|4h|confluence": 1786968000000,
+  "SOL/USDT|4h|confluence": 1789041600000,
   "XAUT/USDT|4h|confluence": 1787140800000,
   "DOT/USDT|4h|confluence": 1787011200000,
   "ADA/USDT|4h|confluence": 1787227200000,
@@ -1494,6 +1494,19 @@
     "volume_spike"
    ],
    "note": "rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 9.1x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-10 18:29:20",
+   "symbol": "SOL/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 99.6,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.6x average on a red candle (confluence)"
   }
  ]
 }
