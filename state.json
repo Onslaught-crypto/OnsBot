@@ -52,7 +52,8 @@
   "TON/USDT|1d|confluence": 1788566400000,
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
-  "CRO/USDT|4h|confluence": 1788868800000
+  "CRO/USDT|4h|confluence": 1788868800000,
+  "MELANIA/USDT|4h|confluence": 1788998400000
  },
  "log": [
   {
@@ -1466,6 +1467,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.1x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-10 06:23:01",
+   "symbol": "MELANIA/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.1031,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.0x average on a red candle (confluence)"
   }
  ]
 }
