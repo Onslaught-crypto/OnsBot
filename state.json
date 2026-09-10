@@ -53,7 +53,8 @@
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
   "CRO/USDT|4h|confluence": 1788868800000,
-  "MELANIA/USDT|4h|confluence": 1788998400000
+  "MELANIA/USDT|4h|confluence": 1788998400000,
+  "APE/USDT|4h|confluence": 1789027200000
  },
  "log": [
   {
@@ -1480,6 +1481,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.0x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-10 15:12:43",
+   "symbol": "APE/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.1362,
+   "members": [
+    "rsi_divergence",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 9.1x average on a red candle (confluence)"
   }
  ]
 }
