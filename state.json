@@ -48,7 +48,7 @@
   "MANA/USDT|4h|confluence": 1788955200000,
   "KAS/USDT|4h|confluence": 1788753600000,
   "BTC/USDT|4h|confluence": 1788278400000,
-  "ETH/USDT|4h|confluence": 1788451200000,
+  "ETH/USDT|4h|confluence": 1789128000000,
   "TON/USDT|1d|confluence": 1788566400000,
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
@@ -1574,6 +1574,20 @@
     "bollinger_squeeze"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout"
+  },
+  {
+   "time": "2026-09-11 18:33:05",
+   "symbol": "ETH/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 2560.23,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 4.1x average on a green candle (confluence)"
   }
  ]
 }
