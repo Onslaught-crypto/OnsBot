@@ -55,7 +55,8 @@
   "CRO/USDT|4h|confluence": 1788868800000,
   "MELANIA/USDT|4h|confluence": 1788998400000,
   "APE/USDT|4h|confluence": 1789027200000,
-  "MANA/USDT|1d|confluence": 1788998400000
+  "MANA/USDT|1d|confluence": 1788998400000,
+  "VET/USDT|4h|confluence": 1789084800000
  },
  "log": [
   {
@@ -1547,6 +1548,19 @@
     "bollinger_squeeze"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout"
+  },
+  {
+   "time": "2026-09-11 06:00:46",
+   "symbol": "VET/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.0074,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.9x average on a red candle (confluence)"
   }
  ]
 }
