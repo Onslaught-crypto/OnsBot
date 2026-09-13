@@ -57,7 +57,8 @@
   "APE/USDT|4h|confluence": 1789027200000,
   "MANA/USDT|1d|confluence": 1788998400000,
   "VET/USDT|4h|confluence": 1789084800000,
-  "FIDD/USDT|4h|confluence": 1789185600000
+  "FIDD/USDT|4h|confluence": 1789185600000,
+  "BERA/USDT|1d|confluence": 1789171200000
  },
  "log": [
   {
@@ -1602,6 +1603,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 20.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-13 01:01:51",
+   "symbol": "BERA/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 0.195,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.9x average on a green candle (confluence)"
   }
  ]
 }
