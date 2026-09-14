@@ -10,7 +10,7 @@
   "LINK/USDT|4h|confluence": 1788451200000,
   "DAI/USDT|1d|confluence": 1787097600000,
   "SOL/USDT|4h|confluence": 1789070400000,
-  "XAUT/USDT|4h|confluence": 1787140800000,
+  "XAUT/USDT|4h|confluence": 1789387200000,
   "DOT/USDT|4h|confluence": 1787011200000,
   "ADA/USDT|4h|confluence": 1787227200000,
   "USDE/USDT|4h|confluence": 1787054400000,
@@ -1655,6 +1655,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; volume_spike: Volume spike 2.1x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-14 18:39:15",
+   "symbol": "XAUT/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 4294.0,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 4.4x average on a red candle (confluence)"
   }
  ]
 }
