@@ -58,7 +58,8 @@
   "MANA/USDT|1d|confluence": 1788998400000,
   "VET/USDT|4h|confluence": 1789084800000,
   "FIDD/USDT|4h|confluence": 1789185600000,
-  "BERA/USDT|1d|confluence": 1789171200000
+  "BERA/USDT|1d|confluence": 1789171200000,
+  "TON/USDT|4h|confluence": 1789416000000
  },
  "log": [
   {
@@ -1668,6 +1669,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 4.4x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-15 00:39:13",
+   "symbol": "TON/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.333,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 14.3x average on a red candle (confluence)"
   }
  ]
 }
