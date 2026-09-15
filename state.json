@@ -18,7 +18,7 @@
   "DAI/USDT|4h|confluence": 1789344000000,
   "FIDD/USDT|1d|confluence": 1787011200000,
   "RLUSD/USDT|4h|confluence": 1787155200000,
-  "DOGE/USDT|4h|confluence": 1789329600000,
+  "DOGE/USDT|4h|confluence": 1789473600000,
   "BNB/USDT|4h|confluence": 1788422400000,
   "FARTCOIN/USDT|4h|confluence": 1787169600000,
   "LTC/USDT|4h|confluence": 1788811200000,
@@ -48,7 +48,7 @@
   "MANA/USDT|4h|confluence": 1788955200000,
   "KAS/USDT|4h|confluence": 1788753600000,
   "BTC/USDT|4h|confluence": 1788278400000,
-  "ETH/USDT|4h|confluence": 1789459200000,
+  "ETH/USDT|4h|confluence": 1789473600000,
   "TON/USDT|1d|confluence": 1788566400000,
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
@@ -1708,6 +1708,32 @@
     "bollinger_squeeze"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout"
+  },
+  {
+   "time": "2026-09-15 19:00:30",
+   "symbol": "ETH/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 2425.14,
+   "members": [
+    "rsi_divergence",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.2x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-15 19:00:47",
+   "symbol": "DOGE/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.08177,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.9x average on a red candle (confluence)"
   }
  ]
 }
