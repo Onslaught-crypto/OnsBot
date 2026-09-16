@@ -20,7 +20,7 @@
   "RLUSD/USDT|4h|confluence": 1789488000000,
   "DOGE/USDT|4h|confluence": 1789488000000,
   "BNB/USDT|4h|confluence": 1788422400000,
-  "FARTCOIN/USDT|4h|confluence": 1787169600000,
+  "FARTCOIN/USDT|4h|confluence": 1789516800000,
   "LTC/USDT|4h|confluence": 1788811200000,
   "BTC/USDT|1d|confluence": 1787270400000,
   "ETH/USDT|1d|confluence": 1787270400000,
@@ -1906,6 +1906,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.6x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-16 05:05:38",
+   "symbol": "FARTCOIN/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.136,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 8.5x average on a red candle (confluence)"
   }
  ]
 }
