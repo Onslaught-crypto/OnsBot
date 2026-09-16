@@ -44,7 +44,7 @@
   "VIRTUAL/USDT|1d|confluence": 1787270400000,
   "XMR/USDT|4h|confluence": 1787356800000,
   "CRO/USDT|1d|confluence": 1787270400000,
-  "APE/USDT|1d|confluence": 1787270400000,
+  "APE/USDT|1d|confluence": 1789430400000,
   "MANA/USDT|4h|confluence": 1788955200000,
   "KAS/USDT|4h|confluence": 1788753600000,
   "BTC/USDT|4h|confluence": 1788278400000,
@@ -53,7 +53,7 @@
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
   "CRO/USDT|4h|confluence": 1788868800000,
-  "MELANIA/USDT|4h|confluence": 1789488000000,
+  "MELANIA/USDT|4h|confluence": 1789502400000,
   "APE/USDT|4h|confluence": 1789027200000,
   "MANA/USDT|1d|confluence": 1788998400000,
   "VET/USDT|4h|confluence": 1789084800000,
@@ -1880,6 +1880,32 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 8.0x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-16 00:20:40",
+   "symbol": "APE/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 0.1236,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 15.1x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-16 00:20:56",
+   "symbol": "MELANIA/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.0982,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.6x average on a red candle (confluence)"
   }
  ]
 }
