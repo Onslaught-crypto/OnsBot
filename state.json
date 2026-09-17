@@ -3,7 +3,7 @@
   "LINK/USD|1d|confluence": 1786406400000,
   "FIL/USD|4h|confluence": 1786564800000,
   "TRX/USD|4h|confluence": 1786608000000,
-  "BCH/USDT|4h|confluence": 1788566400000,
+  "BCH/USDT|4h|confluence": 1789646400000,
   "LINK/USDT|1d|confluence": 1788998400000,
   "PENGU/USDT|4h|confluence": 1789488000000,
   "BCH/USDT|1d|confluence": 1787270400000,
@@ -1933,6 +1933,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 6.2x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-17 18:14:16",
+   "symbol": "BCH/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 233.11,
+   "members": [
+    "rsi_divergence",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "rsi_divergence: Bullish RSI divergence (price LL, RSI HL); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 6.0x average on a green candle (confluence)"
   }
  ]
 }
