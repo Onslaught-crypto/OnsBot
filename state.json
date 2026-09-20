@@ -29,7 +29,7 @@
   "BNB/USDT|1d|confluence": 1787184000000,
   "AVAX/USDT|4h|confluence": 1788120000000,
   "AVAX/USDT|1d|confluence": 1787270400000,
-  "TRUMP/USDT|4h|confluence": 1789488000000,
+  "TRUMP/USDT|4h|confluence": 1789891200000,
   "TRUMP/USDT|1d|confluence": 1787443200000,
   "ATOM/USDT|4h|confluence": 1788120000000,
   "USDE/USDT|1d|confluence": 1787616000000,
@@ -1973,6 +1973,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 6.3x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-20 12:22:55",
+   "symbol": "TRUMP/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 2.015,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.2x average on a red candle (confluence)"
   }
  ]
 }
