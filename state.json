@@ -53,7 +53,7 @@
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
   "CRO/USDT|4h|confluence": 1788868800000,
-  "MELANIA/USDT|4h|confluence": 1789977600000,
+  "MELANIA/USDT|4h|confluence": 1789992000000,
   "APE/USDT|4h|confluence": 1789027200000,
   "MANA/USDT|1d|confluence": 1788998400000,
   "VET/USDT|4h|confluence": 1789084800000,
@@ -2039,6 +2039,20 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.1x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-21 18:55:36",
+   "symbol": "MELANIA/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.1062,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.2x average on a green candle (confluence)"
   }
  ]
 }
