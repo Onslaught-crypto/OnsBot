@@ -61,7 +61,8 @@
   "BERA/USDT|1d|confluence": 1789171200000,
   "TON/USDT|4h|confluence": 1789416000000,
   "ALGO/USDT|4h|confluence": 1789488000000,
-  "CC/USDT|4h|confluence": 1789617600000
+  "CC/USDT|4h|confluence": 1789617600000,
+  "USDC/USDT|4h|confluence": 1790092800000
  },
  "log": [
   {
@@ -2093,6 +2094,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 3.8x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-22 22:22:20",
+   "symbol": "USDC/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.9998,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.4x average on a red candle (confluence)"
   }
  ]
 }
