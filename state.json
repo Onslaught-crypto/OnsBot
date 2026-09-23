@@ -11,17 +11,17 @@
   "DAI/USDT|1d|confluence": 1787097600000,
   "SOL/USDT|4h|confluence": 1789488000000,
   "XAUT/USDT|4h|confluence": 1789387200000,
-  "DOT/USDT|4h|confluence": 1789977600000,
+  "DOT/USDT|4h|confluence": 1790164800000,
   "ADA/USDT|4h|confluence": 1789488000000,
   "USDE/USDT|4h|confluence": 1787054400000,
   "USDG/USDT|4h|confluence": 1788912000000,
   "DAI/USDT|4h|confluence": 1789344000000,
   "FIDD/USDT|1d|confluence": 1787011200000,
   "RLUSD/USDT|4h|confluence": 1789488000000,
-  "DOGE/USDT|4h|confluence": 1789488000000,
+  "DOGE/USDT|4h|confluence": 1790164800000,
   "BNB/USDT|4h|confluence": 1788422400000,
   "FARTCOIN/USDT|4h|confluence": 1789516800000,
-  "LTC/USDT|4h|confluence": 1788811200000,
+  "LTC/USDT|4h|confluence": 1790164800000,
   "BTC/USDT|1d|confluence": 1787270400000,
   "ETH/USDT|1d|confluence": 1789862400000,
   "SOL/USDT|1d|confluence": 1789776000000,
@@ -2107,6 +2107,45 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.4x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-23 19:04:17",
+   "symbol": "DOGE/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.09274,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.8x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-23 19:04:27",
+   "symbol": "LTC/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 59.56727,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.0x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-23 19:04:30",
+   "symbol": "DOT/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.0983,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 3.3x average on a red candle (confluence)"
   }
  ]
 }
