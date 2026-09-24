@@ -15,7 +15,7 @@
   "ADA/USDT|4h|confluence": 1789488000000,
   "USDE/USDT|4h|confluence": 1787054400000,
   "USDG/USDT|4h|confluence": 1788912000000,
-  "DAI/USDT|4h|confluence": 1790222400000,
+  "DAI/USDT|4h|confluence": 1790236800000,
   "FIDD/USDT|1d|confluence": 1787011200000,
   "RLUSD/USDT|4h|confluence": 1789488000000,
   "DOGE/USDT|4h|confluence": 1790179200000,
@@ -2185,6 +2185,19 @@
     "rsi_divergence"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH)"
+  },
+  {
+   "time": "2026-09-24 15:25:40",
+   "symbol": "DAI/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.00005,
+   "members": [
+    "ema_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 12.0x average on a red candle (confluence)"
   }
  ]
 }
