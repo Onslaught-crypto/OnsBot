@@ -62,7 +62,8 @@
   "TON/USDT|4h|confluence": 1789416000000,
   "ALGO/USDT|4h|confluence": 1789488000000,
   "CC/USDT|4h|confluence": 1789617600000,
-  "USDC/USDT|4h|confluence": 1790092800000
+  "USDC/USDT|4h|confluence": 1790092800000,
+  "ALEO/USDT|1d|confluence": 1790208000000
  },
  "log": [
   {
@@ -2198,6 +2199,20 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 12.0x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-25 00:52:29",
+   "symbol": "ALEO/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 0.04267,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 14.8x average on a green candle (confluence)"
   }
  ]
 }
