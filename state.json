@@ -49,7 +49,7 @@
   "KAS/USDT|4h|confluence": 1788753600000,
   "BTC/USDT|4h|confluence": 1788278400000,
   "ETH/USDT|4h|confluence": 1790481600000,
-  "TON/USDT|1d|confluence": 1790380800000,
+  "TON/USDT|1d|confluence": 1790467200000,
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
   "CRO/USDT|4h|confluence": 1788868800000,
@@ -2252,6 +2252,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 4.8x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-28 01:04:44",
+   "symbol": "TON/USDT",
+   "timeframe": "1d",
+   "direction": "long",
+   "price": 1.628,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.7x average on a green candle (confluence)"
   }
  ]
 }
