@@ -3,14 +3,14 @@
   "LINK/USD|1d|confluence": 1786406400000,
   "FIL/USD|4h|confluence": 1786564800000,
   "TRX/USD|4h|confluence": 1786608000000,
-  "BCH/USDT|4h|confluence": 1789646400000,
+  "BCH/USDT|4h|confluence": 1790553600000,
   "LINK/USDT|1d|confluence": 1788998400000,
   "PENGU/USDT|4h|confluence": 1789488000000,
   "BCH/USDT|1d|confluence": 1787270400000,
   "LINK/USDT|4h|confluence": 1789488000000,
   "DAI/USDT|1d|confluence": 1790294400000,
   "SOL/USDT|4h|confluence": 1789488000000,
-  "XAUT/USDT|4h|confluence": 1789387200000,
+  "XAUT/USDT|4h|confluence": 1790553600000,
   "DOT/USDT|4h|confluence": 1790164800000,
   "ADA/USDT|4h|confluence": 1789488000000,
   "USDE/USDT|4h|confluence": 1787054400000,
@@ -53,7 +53,7 @@
   "VIRTUAL/USDT|4h|confluence": 1788724800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
   "CRO/USDT|4h|confluence": 1788868800000,
-  "MELANIA/USDT|4h|confluence": 1789992000000,
+  "MELANIA/USDT|4h|confluence": 1790553600000,
   "APE/USDT|4h|confluence": 1789027200000,
   "MANA/USDT|1d|confluence": 1788998400000,
   "VET/USDT|4h|confluence": 1789084800000,
@@ -2265,6 +2265,45 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.7x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-09-28 06:54:31",
+   "symbol": "BCH/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 316.72,
+   "members": [
+    "rsi_divergence",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 4.4x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-28 06:54:34",
+   "symbol": "XAUT/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 4198.8,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 3.7x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-09-28 06:55:10",
+   "symbol": "MELANIA/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.103,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 3.4x average on a red candle (confluence)"
   }
  ]
 }
