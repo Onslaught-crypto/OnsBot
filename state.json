@@ -15,7 +15,7 @@
   "ADA/USDT|4h|confluence": 1789488000000,
   "USDE/USDT|4h|confluence": 1787054400000,
   "USDG/USDT|4h|confluence": 1790640000000,
-  "DAI/USDT|4h|confluence": 1790236800000,
+  "DAI/USDT|4h|confluence": 1790899200000,
   "FIDD/USDT|1d|confluence": 1787011200000,
   "RLUSD/USDT|4h|confluence": 1790640000000,
   "DOGE/USDT|4h|confluence": 1790179200000,
@@ -25,7 +25,7 @@
   "BTC/USDT|1d|confluence": 1787270400000,
   "ETH/USDT|1d|confluence": 1789862400000,
   "SOL/USDT|1d|confluence": 1789776000000,
-  "XRP/USDT|4h|confluence": 1789488000000,
+  "XRP/USDT|4h|confluence": 1790899200000,
   "BNB/USDT|1d|confluence": 1787184000000,
   "AVAX/USDT|4h|confluence": 1788120000000,
   "AVAX/USDT|1d|confluence": 1787270400000,
@@ -2460,6 +2460,32 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.9x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-02 06:56:40",
+   "symbol": "XRP/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 1.50957,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "rsi_divergence"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL)"
+  },
+  {
+   "time": "2026-10-02 06:57:21",
+   "symbol": "DAI/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 1.0102,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.8x average on a green candle (confluence)"
   }
  ]
 }
