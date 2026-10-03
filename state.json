@@ -64,7 +64,8 @@
   "CC/USDT|4h|confluence": 1790956800000,
   "USDC/USDT|4h|confluence": 1790611200000,
   "ALEO/USDT|1d|confluence": 1790208000000,
-  "SHIB/USDT|4h|confluence": 1790956800000
+  "SHIB/USDT|4h|confluence": 1790956800000,
+  "USDQ/USDT|1d|confluence": 1790899200000
  },
  "log": [
   {
@@ -2644,6 +2645,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.9x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-03 12:25:54",
+   "symbol": "USDQ/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 0.9542,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 20.0x average on a red candle (confluence)"
   }
  ]
 }
