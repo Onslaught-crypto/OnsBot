@@ -20,7 +20,7 @@
   "RLUSD/USDT|4h|confluence": 1790640000000,
   "DOGE/USDT|4h|confluence": 1790985600000,
   "BNB/USDT|4h|confluence": 1788422400000,
-  "FARTCOIN/USDT|4h|confluence": 1789516800000,
+  "FARTCOIN/USDT|4h|confluence": 1791043200000,
   "LTC/USDT|4h|confluence": 1790179200000,
   "BTC/USDT|1d|confluence": 1787270400000,
   "ETH/USDT|1d|confluence": 1789862400000,
@@ -57,7 +57,7 @@
   "APE/USDT|4h|confluence": 1789027200000,
   "MANA/USDT|1d|confluence": 1788998400000,
   "VET/USDT|4h|confluence": 1789084800000,
-  "FIDD/USDT|4h|confluence": 1789185600000,
+  "FIDD/USDT|4h|confluence": 1791043200000,
   "BERA/USDT|1d|confluence": 1789171200000,
   "TON/USDT|4h|confluence": 1790640000000,
   "ALGO/USDT|4h|confluence": 1790582400000,
@@ -2658,6 +2658,32 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 20.0x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-03 22:21:58",
+   "symbol": "FIDD/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.9996,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; volume_spike: Volume spike 6.4x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-03 22:22:32",
+   "symbol": "FARTCOIN/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.1781,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 6.0x average on a green candle (confluence)"
   }
  ]
 }
