@@ -16,7 +16,7 @@
   "USDE/USDT|4h|confluence": 1787054400000,
   "USDG/USDT|4h|confluence": 1790640000000,
   "DAI/USDT|4h|confluence": 1790928000000,
-  "FIDD/USDT|1d|confluence": 1790899200000,
+  "FIDD/USDT|1d|confluence": 1790985600000,
   "RLUSD/USDT|4h|confluence": 1790640000000,
   "DOGE/USDT|4h|confluence": 1790985600000,
   "BNB/USDT|4h|confluence": 1788422400000,
@@ -68,19 +68,6 @@
   "USDQ/USDT|1d|confluence": 1790899200000
  },
  "log": [
-  {
-   "time": "2026-08-12 23:57:44",
-   "symbol": "LINK/USD",
-   "timeframe": "1d",
-   "direction": "long",
-   "price": 8.76895,
-   "members": [
-    "macd_cross",
-    "bollinger_squeeze",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.3x average on a green candle (confluence)"
-  },
   {
    "time": "2026-08-13 02:31:32",
    "symbol": "FIL/USD",
@@ -2684,6 +2671,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 6.0x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-10-04 01:49:32",
+   "symbol": "FIDD/USDT",
+   "timeframe": "1d",
+   "direction": "short",
+   "price": 0.9996,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 11.5x average on a red candle (confluence)"
   }
  ]
 }
