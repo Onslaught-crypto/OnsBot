@@ -61,26 +61,13 @@
   "BERA/USDT|1d|confluence": 1789171200000,
   "TON/USDT|4h|confluence": 1790640000000,
   "ALGO/USDT|4h|confluence": 1790582400000,
-  "CC/USDT|4h|confluence": 1790956800000,
+  "CC/USDT|4h|confluence": 1791129600000,
   "USDC/USDT|4h|confluence": 1790611200000,
   "ALEO/USDT|1d|confluence": 1790208000000,
   "SHIB/USDT|4h|confluence": 1790956800000,
   "USDQ/USDT|1d|confluence": 1790899200000
  },
  "log": [
-  {
-   "time": "2026-08-13 02:31:32",
-   "symbol": "FIL/USD",
-   "timeframe": "4h",
-   "direction": "short",
-   "price": 0.67,
-   "members": [
-    "macd_cross",
-    "bollinger_squeeze",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 6.8x average on a red candle (confluence)"
-  },
   {
    "time": "2026-08-13 12:10:26",
    "symbol": "TRX/USD",
@@ -2684,6 +2671,19 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 11.5x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-04 20:54:29",
+   "symbol": "CC/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 0.12742,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 8.7x average on a green candle (confluence)"
   }
  ]
 }
