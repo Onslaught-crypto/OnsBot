@@ -13,7 +13,7 @@
   "XAUT/USDT|4h|confluence": 1790553600000,
   "DOT/USDT|4h|confluence": 1790956800000,
   "ADA/USDT|4h|confluence": 1789488000000,
-  "USDE/USDT|4h|confluence": 1787054400000,
+  "USDE/USDT|4h|confluence": 1791201600000,
   "USDG/USDT|4h|confluence": 1790640000000,
   "DAI/USDT|4h|confluence": 1790928000000,
   "FIDD/USDT|1d|confluence": 1790985600000,
@@ -68,19 +68,6 @@
   "USDQ/USDT|1d|confluence": 1790899200000
  },
  "log": [
-  {
-   "time": "2026-08-13 12:10:26",
-   "symbol": "TRX/USD",
-   "timeframe": "4h",
-   "direction": "short",
-   "price": 0.333528,
-   "members": [
-    "macd_cross",
-    "rsi_divergence",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.7x average on a red candle (confluence)"
-  },
   {
    "time": "2026-08-13 16:00:17",
    "symbol": "BCH/USDT",
@@ -2684,6 +2671,19 @@
     "volume_spike"
    ],
    "note": "ema_cross: EMA20 crossed above EMA50 (bullish); bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 8.7x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-10-05 19:51:20",
+   "symbol": "USDE/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 1.0005,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 4.1x average on a green candle (confluence)"
   }
  ]
 }
