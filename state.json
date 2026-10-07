@@ -11,7 +11,7 @@
   "DAI/USDT|1d|confluence": 1790294400000,
   "SOL/USDT|4h|confluence": 1789488000000,
   "XAUT/USDT|4h|confluence": 1791302400000,
-  "DOT/USDT|4h|confluence": 1791316800000,
+  "DOT/USDT|4h|confluence": 1791345600000,
   "ADA/USDT|4h|confluence": 1789488000000,
   "USDE/USDT|4h|confluence": 1791201600000,
   "USDG/USDT|4h|confluence": 1790640000000,
@@ -48,7 +48,7 @@
   "MANA/USDT|4h|confluence": 1790928000000,
   "KAS/USDT|4h|confluence": 1788753600000,
   "BTC/USDT|4h|confluence": 1788278400000,
-  "ETH/USDT|4h|confluence": 1790481600000,
+  "ETH/USDT|4h|confluence": 1791345600000,
   "TON/USDT|1d|confluence": 1790467200000,
   "VIRTUAL/USDT|4h|confluence": 1790956800000,
   "ATOM/USDT|1d|confluence": 1788825600000,
@@ -61,53 +61,13 @@
   "BERA/USDT|1d|confluence": 1789171200000,
   "TON/USDT|4h|confluence": 1790640000000,
   "ALGO/USDT|4h|confluence": 1790582400000,
-  "CC/USDT|4h|confluence": 1791129600000,
+  "CC/USDT|4h|confluence": 1791345600000,
   "USDC/USDT|4h|confluence": 1791302400000,
   "ALEO/USDT|1d|confluence": 1790208000000,
   "SHIB/USDT|4h|confluence": 1790956800000,
   "USDQ/USDT|1d|confluence": 1790899200000
  },
  "log": [
-  {
-   "time": "2026-08-16 20:20:29",
-   "symbol": "LINK/USDT",
-   "timeframe": "4h",
-   "direction": "short",
-   "price": 9.4597,
-   "members": [
-    "macd_cross",
-    "rsi_divergence",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.7x average on a red candle (confluence)"
-  },
-  {
-   "time": "2026-08-17 01:46:02",
-   "symbol": "DAI/USDT",
-   "timeframe": "1d",
-   "direction": "long",
-   "price": 1.00301,
-   "members": [
-    "ema_cross",
-    "macd_cross",
-    "bollinger_squeeze"
-   ],
-   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout"
-  },
-  {
-   "time": "2026-08-17 16:25:49",
-   "symbol": "SOL/USDT",
-   "timeframe": "4h",
-   "direction": "long",
-   "price": 76.1,
-   "members": [
-    "ema_cross",
-    "macd_cross",
-    "bollinger_squeeze",
-    "volume_spike"
-   ],
-   "note": "ema_cross: EMA20 crossed above EMA50 (bullish); macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.8x average on a green candle (confluence)"
-  },
   {
    "time": "2026-08-17 16:26:02",
    "symbol": "XAUT/USDT",
@@ -2684,6 +2644,47 @@
     "volume_spike"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.7x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-07 09:18:02",
+   "symbol": "ETH/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 2616.78,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 6.0x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-07 09:18:28",
+   "symbol": "DOT/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 1.1289,
+   "members": [
+    "ema_cross",
+    "macd_cross",
+    "rsi_divergence",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.8x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-07 09:18:50",
+   "symbol": "CC/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.11977,
+   "members": [
+    "macd_cross",
+    "rsi_divergence",
+    "bollinger_squeeze"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout"
   }
  ]
 }
