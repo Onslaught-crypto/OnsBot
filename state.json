@@ -10,14 +10,14 @@
   "LINK/USDT|4h|confluence": 1790625600000,
   "DAI/USDT|1d|confluence": 1790294400000,
   "SOL/USDT|4h|confluence": 1789488000000,
-  "XAUT/USDT|4h|confluence": 1791302400000,
+  "XAUT/USDT|4h|confluence": 1791374400000,
   "DOT/USDT|4h|confluence": 1791345600000,
   "ADA/USDT|4h|confluence": 1789488000000,
   "USDE/USDT|4h|confluence": 1791201600000,
   "USDG/USDT|4h|confluence": 1790640000000,
-  "DAI/USDT|4h|confluence": 1790928000000,
+  "DAI/USDT|4h|confluence": 1791374400000,
   "FIDD/USDT|1d|confluence": 1790985600000,
-  "RLUSD/USDT|4h|confluence": 1790640000000,
+  "RLUSD/USDT|4h|confluence": 1791374400000,
   "DOGE/USDT|4h|confluence": 1790985600000,
   "BNB/USDT|4h|confluence": 1788422400000,
   "FARTCOIN/USDT|4h|confluence": 1791043200000,
@@ -61,65 +61,13 @@
   "BERA/USDT|1d|confluence": 1789171200000,
   "TON/USDT|4h|confluence": 1790640000000,
   "ALGO/USDT|4h|confluence": 1790582400000,
-  "CC/USDT|4h|confluence": 1791345600000,
+  "CC/USDT|4h|confluence": 1791374400000,
   "USDC/USDT|4h|confluence": 1791302400000,
   "ALEO/USDT|1d|confluence": 1790208000000,
   "SHIB/USDT|4h|confluence": 1790956800000,
   "USDQ/USDT|1d|confluence": 1790899200000
  },
  "log": [
-  {
-   "time": "2026-08-17 16:26:02",
-   "symbol": "XAUT/USDT",
-   "timeframe": "4h",
-   "direction": "long",
-   "price": 4405.3,
-   "members": [
-    "macd_cross",
-    "bollinger_squeeze",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 5.8x average on a green candle (confluence)"
-  },
-  {
-   "time": "2026-08-18 04:08:25",
-   "symbol": "DOT/USDT",
-   "timeframe": "4h",
-   "direction": "short",
-   "price": 0.7319,
-   "members": [
-    "macd_cross",
-    "bollinger_squeeze",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 6.1x average on a red candle (confluence)"
-  },
-  {
-   "time": "2026-08-18 16:00:10",
-   "symbol": "ADA/USDT",
-   "timeframe": "4h",
-   "direction": "long",
-   "price": 0.175693,
-   "members": [
-    "macd_cross",
-    "rsi_divergence",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed above signal line; rsi_divergence: Bullish RSI divergence (price LL, RSI HL); volume_spike: Volume spike 3.1x average on a green candle (confluence)"
-  },
-  {
-   "time": "2026-08-18 16:00:52",
-   "symbol": "USDE/USDT",
-   "timeframe": "4h",
-   "direction": "short",
-   "price": 1.0008,
-   "members": [
-    "macd_cross",
-    "bollinger_squeeze",
-    "volume_spike"
-   ],
-   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 12.8x average on a red candle (confluence)"
-  },
   {
    "time": "2026-08-18 20:22:15",
    "symbol": "ADA/USDT",
@@ -2685,6 +2633,58 @@
     "bollinger_squeeze"
    ],
    "note": "macd_cross: MACD crossed below signal line; rsi_divergence: Bearish RSI divergence (price HH, RSI LH); bollinger_squeeze: Bollinger squeeze -> downside breakout"
+  },
+  {
+   "time": "2026-10-07 16:47:16",
+   "symbol": "XAUT/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 4106.8,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed below signal line; bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.5x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-07 16:47:33",
+   "symbol": "RLUSD/USDT",
+   "timeframe": "4h",
+   "direction": "long",
+   "price": 1.00043,
+   "members": [
+    "macd_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "macd_cross: MACD crossed above signal line; bollinger_squeeze: Bollinger squeeze -> upside breakout; volume_spike: Volume spike 2.3x average on a green candle (confluence)"
+  },
+  {
+   "time": "2026-10-07 16:47:52",
+   "symbol": "DAI/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.97567,
+   "members": [
+    "ema_cross",
+    "bollinger_squeeze",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); bollinger_squeeze: Bollinger squeeze -> downside breakout; volume_spike: Volume spike 2.2x average on a red candle (confluence)"
+  },
+  {
+   "time": "2026-10-07 16:48:05",
+   "symbol": "CC/USDT",
+   "timeframe": "4h",
+   "direction": "short",
+   "price": 0.11883,
+   "members": [
+    "ema_cross",
+    "rsi_divergence",
+    "volume_spike"
+   ],
+   "note": "ema_cross: EMA20 crossed below EMA50 (bearish); rsi_divergence: Bearish RSI divergence (price HH, RSI LH); volume_spike: Volume spike 2.9x average on a red candle (confluence)"
   }
  ]
 }
